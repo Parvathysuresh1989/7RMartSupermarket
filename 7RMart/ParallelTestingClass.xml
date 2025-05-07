@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ParallelTestingClass" parallel="classes" thread-count="5">
+  <test  name="Chrome Test">
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+    <class name="testScript.ManageFooterTextTest"></class>
+       <class name="testScript.ManageContactTest"></class>
+        <class name="testScript.ManageCategoryTest"></class>
+       <class name="testScript.ManageNewsTest"></class>
+        <class name="testScript.SubCategoryTest"> </class>
+      <class name="testScript.LogoutTest">   </class>
+      <class name="testScript.LoginTest"></class>
+      
+    </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->
