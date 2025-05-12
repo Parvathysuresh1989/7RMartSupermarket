@@ -9,7 +9,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.io.FileHandler;
-
+// current situation of the browser can be seen
 public class ScreenshotUtility
 {
 	public void getScreenShot(WebDriver driver, String failedTestCase) throws IOException { 

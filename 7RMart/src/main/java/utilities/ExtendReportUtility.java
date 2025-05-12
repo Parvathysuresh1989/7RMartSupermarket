@@ -3,8 +3,10 @@ package utilities;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
+//customize html  report-avenstack dependency
 public class ExtendReportUtility 
 {
+	
 	public static final ExtentReports extentReports = new ExtentReports();
 
 	public synchronized static ExtentReports createExtentReports() 
